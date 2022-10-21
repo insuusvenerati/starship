@@ -15,7 +15,7 @@ jobs:
   release_please:
     name: Release Please
     runs-on: ubuntu-latest
-    if: github.repository == 'starship/starship'
+    # if: github.repository == 'starship/starship'
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
       tag_name: ${{ steps.release.outputs.tag_name }}
@@ -106,7 +106,7 @@ jobs:
         run: cargo install --version 0.3.3 cargo-wix
         env:
           # cargo-wix does not require static crt
-          RUSTFLAGS: ''
+          RUSTFLAGS: ""
 
       - name: Build | Build
         uses: actions-rs/cargo@v1.0.3
