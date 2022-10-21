@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.12.0](https://github.com/insuusvenerati/starship/compare/v1.11.0...v1.12.0) (2022-10-21)
+
+
+### Features
+
+* **aws:** add a fallback for `expiration` key ([#4455](https://github.com/insuusvenerati/starship/issues/4455)) ([5a2c85d](https://github.com/insuusvenerati/starship/commit/5a2c85d078c1a8c83cc055dd0e56033abb15c2bf))
+* Open Policy Agent module ([#1740](https://github.com/insuusvenerati/starship/issues/1740)) ([#4441](https://github.com/insuusvenerati/starship/issues/4441)) ([865e68d](https://github.com/insuusvenerati/starship/commit/865e68da3ad752a2bc85b923258f2dbd5287ada8))
+
+
+### Bug Fixes
+
+* **nu:** remove -c parameter from `term size` ([#4477](https://github.com/insuusvenerati/starship/issues/4477)) ([4999530](https://github.com/insuusvenerati/starship/commit/49995301ce90a0f63b2d5f9cbb30021a0f08f6ff))
+* **status:** replace multiply with cross mark emoji ([#4461](https://github.com/insuusvenerati/starship/issues/4461)) ([186d99e](https://github.com/insuusvenerati/starship/commit/186d99e623d22fe9e2f7e52378f2ec4015f713d4))
+
 ## [1.11.0](https://github.com/starship/starship/compare/v1.10.3...v1.11.0) (2022-10-14)
 
 
