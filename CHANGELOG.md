@@ -1,5 +1,35 @@
 # Changelog
 
+## [1.11.0](https://github.com/insuusvenerati/starship/compare/v1.10.0...v1.11.0) (2022-10-21)
+
+
+### Features
+
+* add user-defined color palette ([#4209](https://github.com/insuusvenerati/starship/issues/4209)) ([d93074d](https://github.com/insuusvenerati/starship/commit/d93074d0569db4bafb1788aa3f39136b734b5370))
+* **aws:** add a fallback for `expiration` key ([#4455](https://github.com/insuusvenerati/starship/issues/4455)) ([5a2c85d](https://github.com/insuusvenerati/starship/commit/5a2c85d078c1a8c83cc055dd0e56033abb15c2bf))
+* **fish:** Enable left and right transience ([#4204](https://github.com/insuusvenerati/starship/issues/4204)) ([06281c2](https://github.com/insuusvenerati/starship/commit/06281c268d74a85d5b28e953bea251a2115f5568))
+* **module:** Add a meson devenv indicator ([#4389](https://github.com/insuusvenerati/starship/issues/4389)) ([355800f](https://github.com/insuusvenerati/starship/commit/355800f8147b1755a5289dc679e2147abd662daf))
+* Open Policy Agent module ([#1740](https://github.com/insuusvenerati/starship/issues/1740)) ([#4441](https://github.com/insuusvenerati/starship/issues/4441)) ([865e68d](https://github.com/insuusvenerati/starship/commit/865e68da3ad752a2bc85b923258f2dbd5287ada8))
+* **schema:** deny unknown keys ([#4270](https://github.com/insuusvenerati/starship/issues/4270)) ([b5d3d8f](https://github.com/insuusvenerati/starship/commit/b5d3d8fcf331cdff6d0e687dcdbac77351731475))
+* **status:** Support formatting of pipestatus separator ([#4264](https://github.com/insuusvenerati/starship/issues/4264)) ([6e35dfa](https://github.com/insuusvenerati/starship/commit/6e35dfa85aeebb3f714389a9286623dc0f60d799))
+
+
+### Bug Fixes
+
+* **buf:** fix spacing & harmonize docs with actual configuration ([#4450](https://github.com/insuusvenerati/starship/issues/4450)) ([3d45236](https://github.com/insuusvenerati/starship/commit/3d452367bdde22a2554cc74bee4d1adfee7e8e04))
+* **directory:** don't strip duplicate directory names twice ([#4295](https://github.com/insuusvenerati/starship/issues/4295)) ([801fbab](https://github.com/insuusvenerati/starship/commit/801fbab720e1bb94c32bb1aa10966a0637a10e63))
+* Disable multithreading in `jwalk` (via `gitoxide`) as workaround for [#4251](https://github.com/insuusvenerati/starship/issues/4251) ([#4258](https://github.com/insuusvenerati/starship/issues/4258)) ([37b54f7](https://github.com/insuusvenerati/starship/commit/37b54f7ac3ba53ea851b478501a96a7c4e188fc4))
+* **git:** upgrade `gitoxide` to v0.21 ([#4277](https://github.com/insuusvenerati/starship/issues/4277)) ([f52ae55](https://github.com/insuusvenerati/starship/commit/f52ae552d3ef2c0c0c6de6429cee7b8271f14671))
+* **nu:** remove -c parameter from `term size` ([#4477](https://github.com/insuusvenerati/starship/issues/4477)) ([4999530](https://github.com/insuusvenerati/starship/commit/49995301ce90a0f63b2d5f9cbb30021a0f08f6ff))
+* **pwsh:** avoid potential deadlock in init ([#4335](https://github.com/insuusvenerati/starship/issues/4335)) ([fd55397](https://github.com/insuusvenerati/starship/commit/fd5539796f7a2b3750d1889b55a563d84b628bee))
+* **status:** replace multiply with cross mark emoji ([#4461](https://github.com/insuusvenerati/starship/issues/4461)) ([186d99e](https://github.com/insuusvenerati/starship/commit/186d99e623d22fe9e2f7e52378f2ec4015f713d4))
+
+
+### Performance Improvements
+
+* **directory:** Skip repo resolution if unused by directory config ([#4401](https://github.com/insuusvenerati/starship/issues/4401)) ([227ec32](https://github.com/insuusvenerati/starship/commit/227ec32d9d7e9d673360d487062fd4bef184e844))
+* **git_commit:** only use exact match for tag by default ([#4281](https://github.com/insuusvenerati/starship/issues/4281)) ([5984f08](https://github.com/insuusvenerati/starship/commit/5984f0829ef5369e83c28108378fe0065a617b3c))
+
 ## [1.10.0](https://github.com/insuusvenerati/starship/compare/v1.12.0...v1.10.0) (2022-10-21)
 
 
