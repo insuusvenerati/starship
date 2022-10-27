@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://github.com/insuusvenerati/starship/compare/v1.12.0...v1.13.0) (2022-10-27)
+
+
+### Features
+
+* **guix_shell:** Initial implementation ([#4397](https://github.com/insuusvenerati/starship/issues/4397)) ([d4bcc51](https://github.com/insuusvenerati/starship/commit/d4bcc519e61524e1fe30f82412a09af113d75287))
+
 ## [1.12.0](https://github.com/insuusvenerati/starship/compare/v1.11.0...v1.12.0) (2022-10-21)
 
 
